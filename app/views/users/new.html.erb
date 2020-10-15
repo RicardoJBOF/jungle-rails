@@ -1,0 +1,39 @@
+<h1>Signup</h1>
+<hr>
+
+<div>
+
+<%= form_for :user, url: '/users' do |f| %>
+
+  <br>
+  <label for="exampleInputEmail1"> First name: </label> 
+  <div aria-describedby="emailHelp">
+  <%= f.text_field :name %>
+  <br>
+  <br>
+  <label for="exampleInputEmail1"> Last name: </label> 
+  <div aria-describedby="emailHelp">
+  <%= f.text_field :last_name %>
+  <br>
+  <br>
+  <label for="exampleInputEmail1"> Email: </label>  
+  <div aria-describedby="emailHelp">
+  <%= f.text_field :email %>
+  </div>
+  <br>
+  <label for="exampleInputEmail1"> Password: </label> 
+  <div aria-describedby="emailHelp">
+  <%= f.password_field :password %>
+  </div>
+  <br>
+  <label for="exampleInputEmail1"> Password Confirmation: </label>
+  <div aria-describedby="emailHelp">
+  <%= f.password_field :password_confirmation %>
+  <%= f.submit "Submit" %>
+  </div>
+
+  
+
+<% end %> 
+
+</div>
