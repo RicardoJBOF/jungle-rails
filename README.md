@@ -34,9 +34,9 @@ When the cart is empty and the user goes to the carts#show page, instead of disp
 
 
 ## Final Product
-!["Screenshot of View"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/View.png)
-!["Screenshot of Creating Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/creating-appointment.png)
-!["Screenshot of register Saving Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/saving-appointment.png)
+!["Screenshot of Admin View"](https://github.com/RicardoJBOF/jungle-rails/blob/master/docs/Admin_view.png)
+!["Screenshot of Product Index"](https://github.com/RicardoJBOF/jungle-rails/blob/master/docs/Index.png)
+!["Screenshot of SingUp Page"](https://github.com/RicardoJBOF/jungle-rails/blob/master/docs/Signup-Page.png)
 
 
 ## Dependencies
