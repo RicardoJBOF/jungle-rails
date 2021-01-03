@@ -3,9 +3,9 @@
 Jungles is a mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
 ## Final Product
-!["Screenshot of Creating Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/creating-appointment.png)
-!["Screenshot of register Saving Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/saving-appointment.png)
-!["Screenshot of View"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/View.png)
+!["Screenshot of Product Index"](https://github.com/RicardoJBOF/jungle-rails/blob/master/docs/Index.png)
+!["Screenshot of SingUp Page"](https://github.com/RicardoJBOF/jungle-rails/blob/master/docs/Signup-Page.png)
+!["Screenshot of Admin View"](https://github.com/RicardoJBOF/jungle-rails/blob/master/docs/Admin_view.png)
 
 ## Dependencies 
 
@@ -55,6 +55,7 @@ Jungles is a mini e-commerce application built with Rails 4.2 for purposes of te
 
 ### Bug: Checking Out with Empty Cart
 When the cart is empty and the user goes to the carts#show page, instead of displaying the contents and a stripe checkout button, display a friendly message about how it is empty and link to the home page
+
 
 
 
