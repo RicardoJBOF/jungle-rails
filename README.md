@@ -1,6 +1,6 @@
 # Jungle
 
-Jungles is a mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Jungles is a mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example.
 
 ## Final Product
 !["Screenshot of Product Index"](https://github.com/RicardoJBOF/jungle-rails/blob/master/docs/Index.png)
@@ -54,7 +54,7 @@ Jungles is a mini e-commerce application built with Rails 4.2 for purposes of te
 - Should ideally be implemented in an abstract top-level class for admin controllers (e.g., Admin::BaseController which the other concrete admin controllers inherit)
 
 ### Bug: Checking Out with Empty Cart
-When the cart is empty and the user goes to the carts#show page, instead of displaying the contents and a stripe checkout button, display a friendly message about how it is empty and link to the home page
+- When the cart is empty and the user goes to the carts#show page, instead of displaying the contents and a stripe checkout button, display a friendly message about how it is empty and link to the home page
 
 
 
