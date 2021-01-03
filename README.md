@@ -2,6 +2,12 @@
 
 Jungles is a mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+!["Screenshot of Creating Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/creating-appointment.png)
+!["Screenshot of register Saving Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/saving-appointment.png)
+!["Screenshot of View"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/View.png)
+
+
 
 ## Functional Requirements
 
@@ -33,10 +39,7 @@ Should ideally be implemented in an abstract top-level class for admin controlle
 When the cart is empty and the user goes to the carts#show page, instead of displaying the contents and a stripe checkout button, display a friendly message about how it is empty and link to the home page
 
 
-## Final Product
-!["Screenshot of View"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/View.png)
-!["Screenshot of Creating Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/creating-appointment.png)
-!["Screenshot of register Saving Appointment"](https://github.com/RicardoJBOF/scheduler/blob/master/docs/saving-appointment.png)
+
 
 
 ## Dependencies
@@ -61,6 +64,6 @@ When the cart is empty and the user goes to the carts#show page, instead of disp
 
 ### Stripe Testing
 
-Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+
 
 
