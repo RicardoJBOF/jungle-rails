@@ -1,10 +1,23 @@
 <header class="page-header">
-<h1>Login</h1>
+<h1 class='login-style'>Login</h1>
 </header>
+<div class='login-style2'>
   <%= form_tag '/sessions' do %>
-
-    Email: <%= text_field_tag :email %>
-    Password: <%= password_field_tag :password %>
-    <%= submit_tag "Submit" %>
+    <div class='space-lines'>
+      Email:
+    </div> 
+    <div class='space-lines'>
+      <%= text_field_tag :email %>
+    </div>
+    <div class='space-lines'>
+      Password: 
+    </div class='space-lines'>
+    <div class='space-lines'>
+      <%= password_field_tag :password %>
+    </div>
+    <div class='space-lines'>
+      <%= submit_tag "Submit" %>
+    </div>
 
   <% end %> 
+</div>
